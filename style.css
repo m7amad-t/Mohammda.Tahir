@@ -1,0 +1,85 @@
+h1 {
+    color : white ;
+    border: black;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .social-media a {
+    display: inline-block;
+    font-size: 24px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: rgb(112, 112, 112);
+  }
+  
+  .social-media a:hover {
+    color: #ffffff;
+  }
+  
+  img {
+    width: 500px; /* set the width and height of the image to be equal */
+    height: 500px;
+    border-radius: 50%; /* set the border-radius to 50% of the width and height */
+    overflow: hidden; /* hide the extra part of the image that may be outside of the circle */
+    margin-bottom: 20px;
+    
+    box-shadow: 0 0 10px #86ffef;
+    
+      
+}
+
+.social-media a:hover i.fab.fa-snapchat {
+    color: #c8c501de;
+    transition: all 0.2s ease-in-out;
+}
+.social-media a:hover i.fab.fa-instagram {
+    color: #8a3ab9;
+    transition: all 0.2s ease-in-out;
+}
+.bio {
+    color : white;
+    text-align: center; /* center the bio text */
+    font-size: 16px; /* set the font size of the bio text */
+    margin-top: 20px; /* add some margin top to separate the bio from the name */
+}
+#background {
+    background-color: black;
+    z-index: -1; /* give it a negative value to put it behind other elements */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#background-container {
+    background: url('2064586520-vector-new copy11.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
+ 
+  #matrix {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.matrix-number {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 15px;
+    color: #0F0;
+    animation: matrix-drop .5s linear infinite;
+}
+
+@keyframes matrix-drop {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(100%);
+    }
+}
