@@ -84,11 +84,8 @@ h1 {
     }
 }
 
-
-html, body {
-    overflow: hidden;
-  }
-
- body {
+  body {
     background-color: black;
 }
+
+  
